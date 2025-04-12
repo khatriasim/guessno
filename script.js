@@ -4,7 +4,7 @@ button.textContent = "Guess"
 button.className = "btn"
 container.appendChild(button)
 
-let guess = Math.floor(Math.random() * 10)
+let guess = Math.floor(Math.random() * 10 + 1)
 console.log(guess)
 
 button.addEventListener("click", ()=>{
